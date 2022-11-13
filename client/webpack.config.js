@@ -48,13 +48,30 @@ module.exports = () => {
                 destination: path.join('assets', 'icons'),
               },
             ],
+            orientation: 'portrait',
+            display: 'standalone',
           }),
     ],
 
     module: {
       // CSS loader
       rules: [
-        
+        {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          // babel-loader in order to use ES6.
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+            },
+          },
+        },
       ],
     },
   };
