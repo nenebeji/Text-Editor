@@ -33,7 +33,7 @@ Run `npm install`  to install dependencies.
 
 ## Screenshots
 
-![App Image](/assets/images/TextEditor.png)
+![App Image](/assets/images/Text-Editor.png)
 > Text Editor
 
 ## Usage 
