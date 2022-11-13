@@ -1,8 +1,7 @@
 {
   "name": "jate",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
@@ -21,5 +20,14 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nenebeji/Text-Editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nenebeji/Text-Editor/issues"
+  },
+  "homepage": "https://github.com/nenebeji/Text-Editor#readme",
+  "description": ""
 }
