@@ -70,7 +70,7 @@ Email: nenebeji@gmail.com
 
 Github Repo: https://github.com/nenebeji/Text-Editor
 
-Heroku URL: 
+Heroku URL: https://jatetext-editor.herokuapp.com
 
 ## License
 
